@@ -1,7 +1,5 @@
 import 'dart:io' as io;
 
-// Solution credits to Darren Austin
-// TODO: Implement my own solution
 class Day5 {
   static final _path = io.Directory.current.path;
 
