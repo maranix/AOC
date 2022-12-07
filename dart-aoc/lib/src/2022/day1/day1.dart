@@ -4,6 +4,7 @@ import 'dart:io' as io;
 class Day1 {
   final _pwd = io.Directory.current.path;
 
+  // 69501
   int part1() {
     final input = io.File('$_pwd/inputs/day1.txt').readAsLinesSync();
 
@@ -24,6 +25,7 @@ class Day1 {
     return maxCal;
   }
 
+  // 202346
   int part2() {
     final pwd = io.Directory.current.path;
     final input = io.File('$pwd/inputs/day1.txt').readAsLinesSync();

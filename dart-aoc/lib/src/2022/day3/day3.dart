@@ -7,6 +7,7 @@ class Day3 {
   static final List<String> _priorities =
       'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
+  // 7763
   int part1() {
     final listOfContents = io.File('$_path/inputs/day3.txt').readAsLinesSync();
 
@@ -18,6 +19,7 @@ class Day3 {
         );
   }
 
+  // 2569
   int part2() {
     final listOfContents = io.File('$_path/inputs/day3.txt').readAsLinesSync();
 

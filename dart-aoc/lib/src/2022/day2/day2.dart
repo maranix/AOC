@@ -8,6 +8,7 @@ class Day2 {
   static const paper = 2;
   static const scissors = 3;
 
+  // 15632
   int part1() {
     final input = io.File('$_pwd/inputs/day2.txt').readAsLinesSync();
 
@@ -22,6 +23,7 @@ class Day2 {
     return _sum(points);
   }
 
+  // 14416
   int part2() {
     final input = io.File('$_pwd/inputs/day2.txt').readAsLinesSync();
 
