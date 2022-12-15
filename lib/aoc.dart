@@ -1,3 +1,3 @@
-int calculate() {
-  return 6 * 7;
-}
+library aoc;
+
+export 'package:aoc/src/2022/barrel.dart';
